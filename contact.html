@@ -120,41 +120,53 @@
     <!-- Page Header Start --> 
 
 
-    <!-- Contact Start -->
+    <!-- Appointment Start -->
     <div class="container-fluid py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Siéntete   <span class="text-primary">libre</span> de contactarnos</h1>
-        </div>
-        <div class="row gx-0 align-items-center">
-            <div class="col-lg-6 mb-5 mb-lg-0" style="height: 600px;">
-                <!-- <iframe class="w-100 h-100"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
-            </div>
-            <div class="col-lg-6">
-                <div class="contact-form bg-light p-5">
-                    <div class="row g-3">
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control border-0" placeholder="Nombres y apellido" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control border-0" placeholder=" E mail" style="height: 55px;">
-                        </div>
-                        <div class="col-12">
-                            <input type="text" class="form-control border-0" placeholder="Asunto" style="height: 55px;">
-                        </div>
-                        <div class="col-12">
-                            <textarea class="form-control border-0" rows="4" placeholder="Mensaje"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                        </div>
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="mb-4">
+                        <h1 class="display-5 text-uppercase mb-4">solicita tu <span class="text-primary">cotizacion</span></h1>
+                    </div>
+                    <!--<p class="mb-5">Nonumy ipsum amet tempor takimata vero ea elitr. Diam diam ut et eos duo duo sed. Lorem elitr sadipscing eos et ut et stet justo, sit dolore et voluptua labore. Ipsum erat et ea ipsum magna sadipscing lorem. Sit lorem sea sanctus eos. Sanctus sit tempor dolores ipsum stet justo sit erat ea, sed diam sanctus takimata sit. Et at voluptua amet erat justo amet ea ipsum eos, eirmod accusam sea sed ipsum kasd ut.</p>-->
+                    <a class="btn btn-primary py-3 px-5" href="">promociones</a>
+                </div> 
+                <div class="col-lg-8">
+                    <div class="bg-light text-center p-5">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Nombre" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder=" Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Fecha de llamada" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="time" id="time" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Tiempo de llamada" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" rows="5" placeholder="Detalle su mensaje"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">enviar solicitud</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
-    <!-- Contact End -->
+    <!-- Appointment End -->
 
 
     <!-- Footer Start -->
@@ -164,7 +176,7 @@
                 <a href="index.html" class="navbar-brand">
                     <h1 class="m-0 display-4 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>J & C</h1>
                 </a>
-                <p>Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam  sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
+                <p>Somos una empresa dedicada al rubro de la Geodesia y Topografía, Practicando siempre la responsabilidad y la calidad en cada uno de nuestros proyectos.</p>
                 <p><i class="fa fa-map-marker-alt me-2"></i>AV. LA CULTURA N° 1002, OF 215 - CUSCO - PERÚ</p>
                 <p><i class="fa fa-phone-alt me-2"></i>982 351 326</p>
 				<p><i class="fa fa-phone-alt me-2"></i>962 281 076</p>
@@ -214,7 +226,7 @@
                 <p class="mb-0">&copy; <a class="text-primary" href="#">.</a>.</p>
             </div>
             <div class="py-4 px-5 bg-primary footer-shape position-relative text-center text-md-end">
-                <p class="mb-0">Designed by <a class="text-dark" href="#">CMC</a></p>
+                <p class="mb-0">Designed by <a class="text-dark" href="#">CmC</a></p>
             </div>
         </div>
     </div>
